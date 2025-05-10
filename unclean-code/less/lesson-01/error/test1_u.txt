@@ -1,0 +1,7 @@
+//	Lỗi: hàm main() bị khai báo lại (main redeclared in this block)
+//	Mỗi package main chỉ được có một hàm main()
+// 	Không được khai báo lại func main() trong:
+//    - Cùng một file Go
+//    - Cùng một package (thường là cùng thư mục)
+//    - Cùng một module (nếu dùng go mod)
+// 	Cách sửa: chỉ giữ lại 1 hàm main() trong toàn bộ package
